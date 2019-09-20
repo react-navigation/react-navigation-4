@@ -1,11 +1,18 @@
 {
   "expo": {
-    "name": "React Navigation Stack Example",
-    "description": "Demonstrates the various capabilities of react-navigation-stack",
-    "slug": "react-navigation-stack-demo",
-    "sdkVersion": "33.0.0",
+    "name": "React Navigation",
+    "description": "Demonstrates the various capabilities of react-navigation",
+    "privacy": "public",
+    "slug": "NavigationPlayground",
+    "sdkVersion": "35.0.0",
     "version": "1.0.0",
     "primaryColor": "#2196f3",
+    "icon": "./src/assets/icon.png",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "packagerOpts": {
       "config": "./metro.config.js",
       "projectRoots": ""
